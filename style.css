@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:"Sofia", sans-serif ;
+    background: orange;
+}
+
+h1{
+    font-size: 90px;
+    margin-top: 1em;
+}
+
+.groseris i{
+    font-size: 2rem;
+    color: orange;
+}
+
+.groseris input{
+    font-family: inherit;
+    outline: 0;
+    border: 0;
+    border-bottom: 3px solid black;
+    width: 70%;
+    font-size: 1.5rem;
+}
+
+.groseris {
+    border: 1px solid black;
+    width: 600px;
+    min-height: 100vh;
+    margin: auto;
+    box-shadow: 10px 10px 24px 0 rgba(0, 0, 0, 0.5);
+    background: white;
+};
+
+.container {
+    border: 1px solid black;
+    width: 90%;
+    margin: auto;
+    display: flex;
+};
+
+#allItems{
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-top: 15px;
+    font-size: 2rem;
+}
+
+@media(max-width: 480px){
+    .groseris h1{
+        font-size: 2rem;
+    }
+
+    .groseris i{
+        font-size: 1.5rem;
+    }
+
+    .groseris input{
+        font-size: 1rem;
+    }
+
+    #allItems h2 {
+        font-size: 1.5rem;
+        margin-left: 25px;
+    }
+}
